@@ -1,6 +1,5 @@
 #pragma once
 #include "ActivationFunction.h"
-#include <iostream>
 
 class NeuralNetwork
 {

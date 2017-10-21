@@ -1,6 +1,5 @@
 #include "NeuralNetwork.h"
 #include "ActivationFunction.h"
-#include <tuple>
 
 
 NeuralNetwork::NeuralNetwork(int layerNum, int& nodeNum, ActivationFunction& function)
@@ -82,9 +81,6 @@ int NeuralNetwork::getWeightNum()
 {
 	return fWeightNum;
 }
-
-#include <iostream>
-using namespace std;
 
 double& NeuralNetwork::getOutPutValue(double& input)
 {
